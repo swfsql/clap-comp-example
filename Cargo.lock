@@ -50,10 +50,10 @@ dependencies = [
 [[package]]
 name = "clap-verbosity-flag"
 version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a7d77af89389927c728493ffeabe62bbcb4d9c5f0f805b7058b5cff1e097047d"
+source = "git+https://github.com/swfsql/clap-verbosity-flag?rev=d9f92b7#d9f92b7ec9a24313b59d9ad548890191629ed09c"
 dependencies = [
  "log",
+ "paw",
  "structopt",
 ]
 

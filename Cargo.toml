@@ -12,3 +12,8 @@ structopt = { version = "0.3.0", features = ["paw"] }
 
 [dependencies.clap-verbosity-flag]
 version = "0.3.1"
+features = ["paw-compatibility"]
+
+[patch.crates-io.clap-verbosity-flag]
+git = "https://github.com/swfsql/clap-verbosity-flag"
+rev = "d9f92b7"
