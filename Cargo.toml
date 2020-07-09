@@ -1,0 +1,14 @@
+[package]
+name = "example-a"
+version = "0.1.0"
+authors = ["Thi <swfsql@gmail.com.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+paw = "1.0.0"
+structopt = { version = "0.3.0", features = ["paw"] }
+
+[dependencies.clap-verbosity-flag]
+version = "0.3.1"
